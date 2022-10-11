@@ -51,16 +51,6 @@ public class Condicionales {
 		} else {
 			System.out.println(antonella.nombre + " no puede ingresar");
 		}
-
-		/*
-		 * if (yeison.edad > 18) { System.out.println(yeison.nombre +
-		 * " puede ingresar"); } else { System.out.println(yeison.nombre +
-		 * " no puede ingresar"); }
-		 * 
-		 * if (silvio.edad > 18) { System.out.println(silvio.nombre +
-		 * " puede ingresar"); } else { System.out.println(silvio.nombre +
-		 * " no puede ingresar"); }
-		 */
 	}
 
 	public static void condicionalSwitch(Persona persona) {

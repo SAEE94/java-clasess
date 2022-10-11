@@ -3,13 +3,15 @@ package abstraccion;
 public class Principal {    
     
     public static void main(String[] args) {
+    	
     	/**
+    	 * Conceptos cuando usamos variables
     	 * Declaración - Inicializacion / Primitivos
     	 * Declaración - Instanciacion  / Clases
     	 */
     	
     	/**
-    	 * Para instanciar una clase usamos <new>
+    	 * Para instanciar una clase usamos el operador <new>
     	 */
     	
    

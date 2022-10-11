@@ -4,19 +4,20 @@ public class Carro {
 
 	// Tipos de datos
 	/**
-	 * Numeros byte =1,2,3,4,5,6,7,8,9,10 ej: 10000 short =1,2,3,4,5,6,7,8,9,10 ej:
-	 * 500000 int =1,2,3,4,5,6,7,8,9,10 ej: 1000000 long =1,2,3,4,5,6,7,8,9,10 ej:
-	 * 5000000 double =1.0,2.234,3.123213123123123,4.123123213123,5,6,7,8,9,10 ej:
-	 * 20000 float =1.0,2.0,3.123,4,5,6,7,8,9,10 ej: 10000
+	 * <tipo de dato> <rango>
+	 * <byte> 	<-128> <128> 
+	 * <short> <-32768> <32768> 
+	 * <int>  <-2147483648> <2147483648>
+	 * <long> <-9223372036854775808> <9223372036854775808> 
+	 * <double> <-1.79769313486232e308> <1.79769313486232e308> 
+	 * <float> <-3.402823e38> <3.402823e38>
+	 * <boolean> <true|false>
+	 * <String> <cadenas de texto ilimitadas>
 	 */
 
 	/**
-	 * boolean = true|false String = "1", "Silvio", "true", "-2", char =
-	 * 1,'a','-','_','2'
-	 */
-
-	/**
-	 * Declarar variables <Tipo de dato> <Nombre de la variable>
+	 * Estructura para declara una variable
+	 * <Tipo de dato> <Nombre de la variable> <una posible inicializacion>
 	 */
 	int motor = 1;
 	String color = "Rojo";
@@ -33,7 +34,9 @@ public class Carro {
 	double maximoValor = 0 - 20_000_000;
 
 	/**
-	 * constructor es un metodo <tipo_constructor>literalmente metodos anonimos
+	 * Estructuras para crear un constructor
+	 * <Nombre de la clase>)(){}
+	 * <Nombre de la clase>)(<uno o varios parametros si es necesario){}
 	 */
 	Carro() {
 		System.out.println("Estoy creando un nuevo carro");
@@ -50,9 +53,8 @@ public class Carro {
 
 	/**
 	 * Funciones/Metodos/Comportamientos
-	 */
-
-	/**
+	 
+	 * Estructura para crear un metodo
 	 * void <nombre_metodo> (){
 	 * 
 	 * }
